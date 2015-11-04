@@ -3,6 +3,7 @@ using System.Collections;
 
 public class WandController : MonoBehaviour
 {
+	// W.C. kind of has an MVC pattern going on
 
 	public Transform weaponHold;
 	public Wand startingWand;

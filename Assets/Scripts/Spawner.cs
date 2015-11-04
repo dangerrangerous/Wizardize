@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour {
 
+	// Problem: Enemy spawn isn't working properly. It could be the interaction with the Enemy Laugh coroutine...considering an object pool for enemies
+
     public Wave[] wave;
     public Enemy enemy;
 

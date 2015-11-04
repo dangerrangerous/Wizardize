@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// fix this. probably in unity editor
+// code is unnecessary but it may still affect the unity editor... don't delete the file just yet
+// my muzzle flash actualy happens when the projectile is fired due to the light source attached
 
 /*public class MuzzleFlash : MonoBehaviour {
 

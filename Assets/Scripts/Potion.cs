@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Potion : MonoBehaviour {
 
+	// current setup is hacked in with the player. Refactoring the potion system into player and World States is on my to-do list
     int numberOfPotionTypes;
     // create a queue
     Queue potions;

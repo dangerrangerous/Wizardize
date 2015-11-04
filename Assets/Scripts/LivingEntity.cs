@@ -3,6 +3,7 @@ using System.Collections;
 
 public class LivingEntity : MonoBehaviour, IDamageable {
 
+	// help i'm alive my heart's beating like a hammer
 
     public float startingHealth;
     protected float health;

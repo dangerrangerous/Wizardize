@@ -3,6 +3,7 @@ using System.Collections;
 
 public class DynamicCamera : MonoBehaviour
 {
+	// sorry for the mess
 
     public Transform Target;
     public Transform Player;
@@ -23,7 +24,7 @@ public class DynamicCamera : MonoBehaviour
 
     void LateUpdate()
     {
-
+		// some experiments with dynamic camera ideas
         /*
         Vector3 cameraAnchorRayOrigin;
         cameraAnchorRayOrigin = Player.transform.position;
@@ -47,6 +48,7 @@ public class DynamicCamera : MonoBehaviour
     */
     }
 
+	// Camera shake has not been implemented yet... code still needs work
     public void CameraShake()
     {
         StartCoroutine(CoCameraShake());

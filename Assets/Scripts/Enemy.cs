@@ -222,6 +222,7 @@ public class Enemy : LivingEntity {
 	}
 
 	// deathSplurt sound is currently tied up with the deathEffect particles system... could modify this deathSplurt to be EnemySpawnSound
+	// created SoundManager to manage most sounds.
 	/*
 	void PlayDeathSound()
 	{

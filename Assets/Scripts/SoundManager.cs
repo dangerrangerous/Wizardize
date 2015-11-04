@@ -3,6 +3,8 @@ using System.Collections;
 
 public class SoundManager : MonoBehaviour 
 {
+	// takes sound clip inputs and modifies their pitch and volume
+
 	public AudioSource fxSource;
 	public AudioSource musicSource;
 	public static SoundManager instance = null;

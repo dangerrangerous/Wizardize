@@ -117,11 +117,15 @@ public class Wand : MonoBehaviour {
 
         }
     }
+
+	// Secondary is under construction. need to reset the weapon rotation after firing.
+	// The idea is to charge up projectiles as the button is held down the fire them in a spinning fashion when released.
+	// It looks pretty cool but doesn't mesh well with gameplay yet.
 	/*
 	void Secondary() 
 	{
 		// Spawn a series of projectiles in a "lotus" like fashion
-		// could make this get rave-ie
+
 			for (int i = 0; i < projectileSpawn.Length; i++) 
 			{
 				if (secondaryProjectileCount < 0) 

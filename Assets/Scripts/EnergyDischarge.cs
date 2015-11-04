@@ -3,6 +3,8 @@ using System.Collections;
 
 public class EnergyDischarge : MonoBehaviour {
 
+	// The idea is to get a kind of 'dripping' effect from energy blasts
+
     public Rigidbody myRigidbody;
     public float forceMin;
     public float forceMax;

@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class ItemPickup : MonoBehaviour {
-    /* 
-
+    
+	// ended up removing this and attaching it to the player... keeping it around for later use
+	/* 
+	
 
     public int distanceToItem;
     public GameObject potion;

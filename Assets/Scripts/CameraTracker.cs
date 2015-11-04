@@ -3,6 +3,9 @@ using System.Collections;
 
 public class CameraTracker : MonoBehaviour {
 
+// I was initially using a 3rd person camera that followed an unrendered tracking item that followed the player.
+// Keeping this in here because it could prove useful.
+
     /*
     
     private const float _distance_threshold = -5.0f;
